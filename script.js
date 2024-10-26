@@ -1,5 +1,5 @@
 function verificar() {
-    let result = document.getElementById('cle');
+    
 
     // Array para armazenar resultados
     let resultados = [];
