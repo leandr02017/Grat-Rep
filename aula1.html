@@ -15,11 +15,18 @@
 
 <body>
     <header>
-        <h1>Sistema - Gratificação Representação</h1>
+        <div class="container">
+            <h1>Sistema - Gratificação Representação</h1>
+            <div class="hbg">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <table>
+    <section id="tab">
+        <table class="container">
 
             <thead id="Cabeç">
 
@@ -39,7 +46,7 @@
                 <tr>
                     <td><b>Cel</b></b></td>
                     <td class="vd"><b>R$ 229,02</b></td>
-                    <td><input type="number" name="be" id="br" ></td>
+                    <td><input type="number" name="be" id="cel" ></td>
                     <td><input type="number" name="be1" id="br1" ></td>
                     <td class="di" id="res">
 
@@ -164,22 +171,24 @@
         </table>
 
         <div class="ver">
-            <button onclick="verificar()" class="button">Calcular</button>
+            <button type="submit" class="button" id="submit">Calcular</button>
         </div>
 
-        <div>
-            <table>
+    </section>
+
+    <section id="list">
+        <div class="container">
+            <ul>
                 
-            </table>
+            </ul>
         </div>
-
-
     </section>
 
     <footer>
         <p>&copy;LeandroLunardelli</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="script.js"></script>
 </body>
 
